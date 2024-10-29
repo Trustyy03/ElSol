@@ -110,6 +110,7 @@ fun Cards(modifier: Modifier = Modifier) {
                                 },
                                 text = { Text("Copiar") },
                                 onClick = {
+                                    imagenesCards = imagenesCards + (imagenResId to nombre)
                                     expanded = false
                                 }
                             )
